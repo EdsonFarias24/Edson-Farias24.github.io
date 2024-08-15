@@ -1,0 +1,264 @@
+header {
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+i {
+    color: $white-normal;
+}
+
+.header-icons {
+    display: flex;
+    gap: 16px;
+
+}
+
+.header-icons a:hover {
+    i {
+        animation: translateY 0.8s infinite alternate;
+        color: $red-light;
+    }
+}
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+
+    }
+
+    to {
+        transform: translateY(-8px) scale(1.5);
+
+    }
+}
+
+.header-button {
+    border: 1px solid $white-normal;
+    padding: 14px 30px;
+    border-radius: 4px;
+    color: $white-normal;
+    background-color: transparent;
+    transition: background-color 0.8s;
+}
+
+.header-button:hover {
+    border: 1px solid $red-light;
+    background-color: $red-light;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            margin-top: 16px;
+            font-size: 50px;
+        }
+    }
+
+
+    .header-logo img {
+        width: 160px;
+        margin-top: 46px;
+    }
+
+    .header-button {
+        display: none;
+    }
+}
+
+.header {
+    width: 100%;
+}
+
+.ravick-content {
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ravick-icons {
+    display: flex;
+    gap: 17px;
+}
+
+.ravick-icons a:hover {
+    i {
+        animation: translateY 0.8s infinite alternate;
+        color: $red-light;
+    }
+}
+
+.ravick-button {
+    border: 1px solid $white-normal;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: $white-normal;
+    background-color: transparent;
+    transition: background-color 0.8s;
+
+}
+
+.ravick-button:hover {
+    border: 1px solid $red-light;
+    background-color: $red-light;
+
+}
+
+.ravick-logo {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .ravick-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    i {
+        margin-top: 16px;
+        font-size: 34px;
+    }
+
+    .ravick-button {
+        display: none;
+    }
+
+    .ravick-logo {
+        width: 160px;
+        margin-top: 46px;
+    }
+}
+
+//---------------------
+
+
+//------valderi----------
+
+.valderi-content {
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.valderi-icons {
+    display: flex;
+    gap: 17px;
+}
+
+.valderi-icons a:hover {
+    i {
+        animation: translateY 0.8s infinite alternate;
+        color: $red-light;
+    }
+}
+
+.valderi-button {
+    border: 1px solid $white-normal;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: $white-normal;
+    background-color: transparent;
+    transition: background-color 0.8s;
+
+}
+
+.valderi-button:hover {
+    border: 1px solid $red-light;
+    background-color: $red-light;
+
+}
+
+.ravick-logo {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .valderi-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    i {
+        margin-top: 16px;
+        font-size: 34px;
+    }
+
+    .valderi-button {
+        display: none;
+    }
+
+    .valderi-logo {
+        width: 160px;
+        margin-top: 46px;
+    }
+}
+
+
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            margin-top: 16px;
+            font-size: 50px;
+        }
+    }
+
+
+    .logo-footer img {
+        width: 160px;
+        margin-top: 46px;
+    }
+
+    .header-button {
+        display: none;
+    }
+}
